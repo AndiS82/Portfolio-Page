@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/*=======MAIN=======*/
+
+header{
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headerContainer{
+  padding: 5% 5% 2.5% 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.headerContainer h2{
+  font-size: 3rem;
+  background: linear-gradient(to right, #667db6, #0082c8,#0082c8, #667db6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+#light{
+  background-color: #f3ebf6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#dark{
+  background-color: #46045e;
+}
+
+.icon{
+  vertical-align: bottom;
+  font-size: 3.5rem;
+}
+
+.headerContainer h1{
+  padding: 5% 5% 1% 5%;
+  font-size: 4rem;
+}
+.headerContainer p{
+  margin-left: 10%;
+  padding: 2%;
+  font-size: 2rem;
+}
+
+.getInTouch{font-size: 3rem;
+  margin: 5% 0 0 15%
+}
+
+.headerImg{
+  border-radius: 20px;
+  height: 35%;
+  width: 35%;
+}
+
+main{
+  height: 100vh;
 }

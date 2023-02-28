@@ -1,0 +1,93 @@
+.navbarWrapper{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, #667db6, #0082c8,#0082c8, #667db6);
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.checkbox{
+    position: relative;
+width: 80px;
+height: 50px;
+appearance: none;
+background: #ffffff;
+outline: none;
+border-radius: 20px;
+box-shadow: 0 0 0 5px #111111;
+transition: .5s;
+cursor: pointer;
+}
+
+.checkbox:checked{
+background:#ffffff;
+}
+.checkbox:before{
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(to right, #04619F , #000000);
+    top: 5px;
+    left: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px #111111;
+    transition: .5s;
+    }
+
+.checkbox:checked:before{
+left: 38px;
+}
+
+.navbarMain{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4{
+    color: #ffffff;
+}
+
+.navbarP{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.mouth{position: relative;
+    top: -50px;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+
+.navbarSocialMedia{
+    width: 7.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navButtonDiv{
+    width: 20%;
+}
+
+.navButtonDiv button{
+    margin-left: 10px;
+    color:white
+}
+
+.navbarButton{background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
