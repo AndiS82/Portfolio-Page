@@ -1,19 +1,23 @@
 import "./Navbar.css"
 import { GrLinkedin, GrGithub } from "react-icons/gr";
+import { HiOutlineSun, HiOutlineMoon } from "react-icons/hi2";
 import { useState, useContext } from "react";
-import { LanguageContext } from "../App";
+import { LanguageContext, ThemeContext } from "../App";
 
 
-export const Navbar = ({toggleLanguage}) => {
+
+export const Navbar = ({toggleLanguage, toggleTheme}) => {
     const german = useContext(LanguageContext)
+    const theme = useContext(ThemeContext)
 
 const [nose, setNose] = useState(false)
 
-console.log(german.german)
 
 const Nose = () =>{
     setNose(prev=> !prev)
 }
+
+console.log(theme.theme)
 
 return(
     <nav className="navbarWrapper">
@@ -29,12 +33,15 @@ return(
 <h4>Projects</h4>
     </nav>
     <div className="navbarSocialMedia">
-<p className="navbarP">{<GrLinkedin/>}</p>
-<p className="navbarP">{<GrGithub/>}</p>
+<p className="navbarP">{<GrLinkedin className="reactIcon"/>}</p>
+<p className="navbarP">{<GrGithub className="reactIcon"/>}</p>
     </div>
     <div  className="navButtonDiv">
-        <button className=""></button>
-    <button className="navbarButton" onClick={toggleLanguage}>{german.german === "german"? "English?":"Deutsch?"}</button>
+    <button className="navbarButton">{german.german === "german"? "Contact Me!":"Schreib mir! "}</button>
+    <button className="navbarButton" onClick={toggleLanguage}>{german.german === "german"?"Deutsch?" :"English?"}</button>
+    </div>
+    <div>
+    <button className="themeButton" onClick={toggleTheme}>{theme.theme === "light"? <HiOutlineMoon className="reactIcon" />:<HiOutlineSun className="reactIcon"/>}</button>
     </div>
     </nav>
 )

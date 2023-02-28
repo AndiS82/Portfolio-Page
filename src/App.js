@@ -28,7 +28,7 @@ const [theme, setTheme] = useState("light")
     <div className="App" id={theme}>
 
 <header>
-<Navbar toggleLanguage={toggleLanguage}/>
+<Navbar toggleLanguage={toggleLanguage} toggleTheme={toggleTheme}/>
 <div className='headerContainer'>
 <h2>{german === true || german ==="german"? "Welcome to my Portfolio!":"Willkommen auf meiner Portfoliseite!"}</h2>
 <h1>Hi there! I'm Andy, an upcoming Full Stack Web Designer!</h1>
