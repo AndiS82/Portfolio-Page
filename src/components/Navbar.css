@@ -17,6 +17,7 @@
 }
 
 .checkbox{
+    margin-left: 50px;
     position: relative;
 width: 80px;
 height: 50px;
@@ -33,6 +34,7 @@ cursor: pointer;
 background:#ffffff;
 }
 .checkbox:before{
+
     position: absolute;
     content: "";
     background-image: linear-gradient(to right, #04619F , #000000);
@@ -50,41 +52,63 @@ left: 38px;
 }
 
 .navbarMain{
-    width: 30%;
+    width: 40%;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
 }
 
-h4{
+h4{ 
+    font-size: 2rem;
     color: #ffffff;
 }
 
-.navbarP{
+.nose{
+    margin-left: 50px;
     font-size: 2rem;
     text-align: center;
-    color: white;
+    color: #ece9e6;
 }
 
-.mouth{position: relative;
+.navbarP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+    color: #ece9e6;
+}
+
+.mouth{
+    margin-left: 50px;
+    position: relative;
     top: -50px;
     font-size: 4rem;
-    color: white;
+    color: #ece9e6;
     text-align: center;
 }
 
 .navbarSocialMedia{
-    width: 7.5%;
+    width: 10%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .navButtonDiv{
-    width: 20%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 35%;
+}
+
+.flag{margin-left: 50px;
+    height: 50px;
+    width: 50px;
 }
 
 .navButtonDiv button{
-    margin-left: 10px;
-    color:white
+    font-size: 2rem;
+    color:#ece9e6;
 }
 
 .navbarButton{margin-right: 5%;
@@ -94,12 +118,11 @@ h4{
 }
 
 .reactIcon{
-
     font-size: 2rem;
 }
 
 .themeButton{
-        margin-right: 5%;
+        margin-right: 50px;
     background: transparent;
     border: transparent;
     cursor: pointer; 
