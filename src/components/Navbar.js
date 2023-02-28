@@ -30,7 +30,7 @@ return(
     <nav className="navbarMain">
 <h4>Home</h4>
 <h4>Skills</h4>
-<h4>Projects</h4>
+<h4>{german.german==="german"?"Projects":"Projekte"}</h4>
     </nav>
     <div className="navbarSocialMedia">
 <p className="navbarP">{<GrLinkedin className="reactIcon"/>}</p>
