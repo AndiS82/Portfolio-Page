@@ -6,8 +6,8 @@ import { Skills } from './components/Skills';
 import { createContext, useState } from 'react';
 
 
-export const ThemeContext = createContext(null)
-export const LanguageContext = createContext(null)
+export const ThemeContext = createContext("light")
+export const LanguageContext = createContext("german")
 
 function App() {
 const [theme, setTheme] = useState("light")
@@ -30,10 +30,10 @@ const [theme, setTheme] = useState("light")
 <header>
 <Navbar toggleLanguage={toggleLanguage} toggleTheme={toggleTheme}/>
 <div className='headerContainer'>
-<h2>{german === true || german ==="german"? "Welcome to my Portfolio!":"Willkommen auf meiner Portfoliseite!"}</h2>
-<h1>Hi there! I'm Andy, an upcoming Full Stack Web Designer!</h1>
-<p>I'm currently on a quest to make the web fun and exciting - one pixel at a time!</p>
-<h3 className='getInTouch'>Let's get in touch! {<HiArrowRightCircle className='icon'/>}</h3>
+<h2>{german ==="german"? "Welcome to my Portfolio!":"Willkommen auf meiner Portfoliseite!"}</h2>
+<h1>{german ==="german"? "Hi there! I'm Andy, an upcoming Full Stack Web Designer!":"Hallo! Ich bin Andreas, ein frischgebackender Full Stack Web Developer!"}</h1>
+<p>{german === "german"? "My task is to make your web presence fun and exciting - one pixel at a time!":"Meine Aufgabe besteht darin, deinen Web-Auftritt cool und aufregend in Szene zu setzen - Pixel für Pixel!"}</p>
+<h3 className='getInTouch'>{german === "german"? "Let's get in touch!":"Kontaktiere mich!"} {<HiArrowRightCircle className='icon'/>}</h3>
 </div>
 </header>
 <section>

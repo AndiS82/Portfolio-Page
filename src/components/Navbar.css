@@ -87,17 +87,19 @@ h4{
     color:white
 }
 
-.navbarButton{
+.navbarButton{margin-right: 5%;
     background: transparent;
     border: transparent;
     cursor: pointer;
 }
 
 .reactIcon{
+
     font-size: 2rem;
 }
 
 .themeButton{
+        margin-right: 5%;
     background: transparent;
     border: transparent;
     cursor: pointer; 
