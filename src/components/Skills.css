@@ -6,6 +6,15 @@
     background: #222;
 }
 
+.headlineContainer h2{
+    color: white;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5%;
+}
+
 .skillsContainer{
     position: relative;
     display: flex;

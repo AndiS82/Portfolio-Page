@@ -4,6 +4,7 @@ import "./Skills.css"
 export const Skills = ()=>{
     return(
         <section className="skillsSection">
+            <div className="headlineContainer"><h2>Coding Skills</h2>
         <div className="skillsContainer">
         <div className="skillCard">
             <div className="percentage">
@@ -22,7 +23,7 @@ export const Skills = ()=>{
         <div className="skillCard">Express.js</div>
         <div className="skillCard">Node.js</div>
          </div>
-         </section>
+         </div></section>
        
     )
 }
