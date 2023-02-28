@@ -1,3 +1,6 @@
+/*=======COLORS=======*/
+/* #f3ebf6 */
+
 *{
   margin: 0;
   padding: 0;
@@ -23,11 +26,11 @@ header{
 }
 
 #light{
-  background-color: #f3ebf6;
+  background:linear-gradient(to right, #ece9e6,#ffffff);
 }
 
 #dark{
-  background-color: #46045e;
+  background:linear-gradient(to right, #141e30,#243b55);
 }
 
 .icon{
