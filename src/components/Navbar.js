@@ -1,12 +1,13 @@
 import "./Navbar.css"
 import { GrLinkedin, GrGithub } from "react-icons/gr";
 import { HiOutlineSun, HiOutlineMoon } from "react-icons/hi2";
-import { useState, useContext } from "react";
+import { useContext } from "react";
 import { LanguageContext, ThemeContext } from "../App";
 import deutsch from "../img/German-flag-emoji.png";
 import english from "../img/British-flag-emoji.png";
 import { Link, animateScroll as scroll } from "react-scroll";
-import Languages from "../Data/Languages.json"
+import Languages from "../Data/Languages.json";
+import Hello from "../img/hello memoji.png";
 
 
 
@@ -14,24 +15,16 @@ export const Navbar = ({toggleLanguage, toggleTheme}) => {
     const german = useContext(LanguageContext)
     const theme = useContext(ThemeContext)
 
-const [nose, setNose] = useState(false)
 const Text = german.german;
 const {Navbar} = Languages[Text]
-
-const Nose = () =>{
-    setNose(prev=> !prev)
-}
 
 console.log(theme.theme)
 
 return(
     <nav className={theme.theme === "light"?"navbarWrapper":"navbarWrapperDark"}>
-        <div className="toggleContainer">
-    <label className="logoContainer">
-        <input type="checkbox" onChange={Nose} className="checkbox"></input>
-    </label>
-    <p className="nose">{nose === true? ">" :"<"}</p>
-        <p className="mouth">{nose === true? "‿" : "︵"}</p></div>
+        <div className="memojiContainer">    
+            <img className="helloMemoji" src={Hello} alt={"Wave Memoji"}></img>
+        </div>
     <nav className="navbarMain">
 <h4>Home</h4>
 <Link to="section" smooth={true}><h4>Skills</h4></Link> 

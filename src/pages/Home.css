@@ -9,6 +9,7 @@
   
   header{
     height: 100vh;
+    margin-bottom: 10%;
   }
   
   .headerContainer, .headerContainerDark{
@@ -30,7 +31,7 @@
   
   #light{
     color: #141e30;
-    background:linear-gradient(to right, #ece9e6,#ffffff);
+    background:linear-gradient(to right, #d6d4d1,#ece9e6);
   }
   
   #dark{color: #ece9e6;
@@ -42,13 +43,24 @@
     font-size: 3.5rem;
   }
   
-  .headerContainer h1, .headerContainerDark h1{
+  .headerContainer h1{
     padding: 5% 5% 1% 5%;
     font-size: 4rem;
     background: linear-gradient(to right, #466196, #8DB9E3,#ADD8E6,#8DB9E3,#466196);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }  
+  }
+  
+  .headerContainerDark h1{
+    padding: 5% 5% 1% 5%;
+    font-size: 4rem;
+    background: linear-gradient(to right, #283756, #59758f,#59758f,#283756);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+
   #fullStack{
     display: flex;
     align-items: center;
@@ -68,12 +80,16 @@
     font-size: 2rem;
   }
   
-  .getInTouch{font-size: 3rem;
+  .getInTouch{
+    width: 40%;
+    font-size: 3rem;
     margin: 5% 0 0 15%;
     color: #141e30;
   }
 
-  .getInTouchDark{font-size: 3rem;
+  .getInTouchDark{
+    width:40%;
+    font-size: 3rem;
     margin: 5% 0 0 15%;
     color: #ece9e6;
   }
@@ -83,6 +99,17 @@
     height: 35%;
     width: 35%;
   }
+
+  .memojiContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  .callMeMemoji{margin: -10% 0 15% 50%;
+    height: 20%;
+    width: 20%;
+}
   
   main{
     height: 100vh;
