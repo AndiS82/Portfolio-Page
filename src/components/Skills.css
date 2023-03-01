@@ -3,11 +3,11 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #222;
+    background: linear-gradient(to right, #16222a , #3a6073);
 }
 
 .headlineContainer h2{
-    color: white;
+    color: #ece9e6;
     font-size: 4rem;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@
     justify-content: center;
     width: 350px;
     height: 350px;
-    background:#2a2a2a;
+    background:linear-gradient(to right, #2c5364, #203a43, #0f2027);
 }
 
 .percentage{

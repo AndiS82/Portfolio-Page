@@ -60,7 +60,7 @@ left: 38px;
 
 h4{ 
     font-size: 2rem;
-    color: #ffffff;
+    color: #ece9e6;
 }
 
 .nose{
@@ -117,7 +117,7 @@ h4{
     cursor: pointer;
 }
 
-.reactIcon{
+.reactIcon{color: #ece9e6;
     font-size: 2rem;
 }
 
@@ -129,5 +129,5 @@ h4{
 }
 
 .reactIcon:hover{
-    color: goldenrod;
+    color: #ece9e6;
 }
