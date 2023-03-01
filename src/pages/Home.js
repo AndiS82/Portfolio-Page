@@ -1,10 +1,10 @@
 import './Home.css';
 import { Navbar } from '../components/Navbar';
 import { HiArrowRightCircle } from "react-icons/hi2";
-import {useContext } from 'react';
 import { AboutMeComponent } from '../components/AboutMe';
 import { Footer } from '../components/Footer';
 import Languages from "../Data/Languages.json";
+import {useContext } from 'react';
 import CallMe from "../img/call me memoji.png"
 
 function Home({toggleLanguage, toggleTheme, LanguageContext, ThemeContext}) {

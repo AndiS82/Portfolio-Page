@@ -62,7 +62,7 @@
     font-family:Robotobold;
     padding: 5% 5% 1% 5%;
     font-size: 4rem;
-    background: linear-gradient(to right, #466196, #8DB9E3,#ADD8E6,#8DB9E3,#466196);
+    background: linear-gradient(to right, #466196, #8DB9E3,#8DB9E3,#466196);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

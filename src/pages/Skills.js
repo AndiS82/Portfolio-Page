@@ -1,9 +1,18 @@
+import { Navbar } from "../components/Navbar"
 import "./Skills.css"
+import Languages from "../Data/Languages.json";
+import {useContext } from 'react';
+import { useNavigate } from "react-router-dom";
 
-
-export const Skills = ()=>{
+export const Skills = ({toggleLanguage, toggleTheme, LanguageContext, ThemeContext})=>{
+    const german = useContext(LanguageContext)
+    const theme = useContext(ThemeContext)
+    const Text = german.german;
+const {Home} = Languages[Text];
+const navigate = useNavigate();
     return(
         <section className="skillsSection">
+            <Navbar/>
             <div className="headlineContainer"><h2>Coding Skills</h2>
         <div className="skillsContainer">
         <div className="skillCard">
