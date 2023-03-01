@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /*=======MAIN=======*/
+  
+  header{
+    height: 100vh;
+  }
+  
+  .headerContainer, .headerContainerDark{
+    padding: 5% 5% 2.5% 5%;
+  }
+  
+  .headerContainer h2{
+
+    margin-top:20% ;
+    font-size: 3rem;
+  color: #141e30;
+  }
+
+  .headerContainerDark h2{
+    margin-top:20% ;
+    font-size: 3rem;
+  color: #ece9ec;
+  }
+  
+  #light{
+    color: #141e30;
+    background:linear-gradient(to right, #ece9e6,#ffffff);
+  }
+  
+  #dark{color: #ece9e6;
+    background:linear-gradient(to right, #141e30,#243b55);
+  }
+  
+  .icon{
+    vertical-align: bottom;
+    font-size: 3.5rem;
+  }
+  
+  .headerContainer h1, .headerContainerDark h1{
+    padding: 5% 5% 1% 5%;
+    font-size: 4rem;
+    background: linear-gradient(to right, #466196, #8DB9E3,#ADD8E6,#8DB9E3,#466196);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }  
+  #fullStack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  .headerContainer p{
+    color: #141e30;
+    margin-left: 10%;
+    padding: 2%;
+    font-size: 2rem;
+  }
+
+  .headerContainerDark p{
+    color: #ece9e6;
+    margin-left: 10%;
+    padding: 2%;
+    font-size: 2rem;
+  }
+  
+  .getInTouch{font-size: 3rem;
+    margin: 5% 0 0 15%;
+    color: #141e30;
+  }
+
+  .getInTouchDark{font-size: 3rem;
+    margin: 5% 0 0 15%;
+    color: #ece9e6;
+  }
+  
+  .headerImg{
+    border-radius: 20px;
+    height: 35%;
+    width: 35%;
+  }
+  
+  main{
+    height: 100vh;
+  }

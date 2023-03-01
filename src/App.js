@@ -1,9 +1,11 @@
 import './App.css';
-import { Navbar } from './components/Navbar';
-import { HiArrowRightCircle } from "react-icons/hi2";
-import coding from "./img/CodingMacBook.jpg"
-import { Skills } from './components/Skills';
+import Home from "./pages/Home";
+import { Skills } from './pages/Skills';
+import { Projects } from './pages/Projects';
+import { Contact } from './pages/Contact';
+
 import { createContext, useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 export const ThemeContext = createContext("light")
@@ -11,7 +13,7 @@ export const LanguageContext = createContext("german")
 
 function App() {
 const [theme, setTheme] = useState("light")
-  const [german, setGerman]= useState(true)
+  const [german, setGerman]= useState("german")
 
 
   const toggleTheme = ()=>{
@@ -25,39 +27,14 @@ const [theme, setTheme] = useState("light")
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
       <LanguageContext.Provider value={{german, toggleLanguage}}>
-    <div className="App" id={theme}>
-
-<header>
-<Navbar toggleLanguage={toggleLanguage} toggleTheme={toggleTheme}/>
-<div className='headerContainer'>
-<h2>{german ==="german"? "Welcome to my Portfolio!":"Willkommen auf meiner Portfolioseite!"}</h2>
-<h1>{german ==="german"? "Hi there! I'm Andy, an upcoming":"Hallo! Ich bin Andreas,"}</h1>
-<h1 id='fullStack'>{"<Full Stack Web Developer/>"}</h1>
-<p>{german === "german"? "I'd absolutely love to make your web presence fun and exciting - one pixel at a time!":"Meine Aufgabe besteht darin, deinen Web-Auftritt cool und aufregend in Szene zu setzen - Pixel für Pixel!"}</p>
-<h3 className='getInTouch'>{german === "german"? "Let's get in touch!":"Kontaktiere mich!"} {<HiArrowRightCircle className='icon'/>}</h3>
-</div>
-</header>
-<main>
-  <section className='aboutMeSection'>
-    
-    </section>
-  <section className='skillsSection'>
-  <Skills/>
-</section>
-  <div>
-    <img className='headerImg' src={coding}></img>
-  </div>
-  <div>
-    <h2> Get In Touch!</h2>
-    <form>
-
-    </form>
-  </div>
-</main>
-<footer>
-
-</footer>
-    </div>
+<Router>
+  <Routes>
+    <Route path='/' element={<Home toggleLanguage={toggleLanguage} toggleTheme={toggleTheme} ThemeContext={ThemeContext} LanguageContext={LanguageContext}/>}/>
+    <Route path="/skills" element={<Skills/>}/>
+    <Route path="/projects" element={<Projects/>}/>
+    <Route path='/contact' element={<Contact/>}/>
+  </Routes>
+</Router>
   </LanguageContext.Provider>
   </ThemeContext.Provider>);
 }
