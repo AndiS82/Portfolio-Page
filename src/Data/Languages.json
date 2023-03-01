@@ -1,0 +1,26 @@
+{
+    "english":{
+        "Navbar":{
+            "projects": "Projects",
+            "contactMe":"Contact Me!"
+        },
+        "Home":{
+            "welcome":"Welcome to my portfolio!",
+            "h1":"Hi there! I'm Andy",
+            "p":"I'd absolutely love to make your web presence fun and exciting - one pixel at a time!",
+            "h3":"Let's get in touch!"
+        }
+    },
+    "german":{
+        "Navbar":{
+            "projects": "Projekte",
+            "contactMe":"Schreib mir!"
+        },
+        "Home":{
+            "welcome":"Willkommen auf meiner Protfolioseite!",
+            "h1":"Hallo! ich bin Andreas",
+            "p":"Ich werde deinen Web-Auftritt cool und aufregend in Szene setzen - Pixel für Pixel!",
+            "h3":"Kontaktiere mich!"
+        }
+    }
+}
