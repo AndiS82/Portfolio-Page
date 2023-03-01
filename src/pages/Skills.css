@@ -1,0 +1,83 @@
+.skillsSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #16222a , #3a6073);
+}
+
+.headlineContainer h2{
+    color: #ece9e6;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5%;
+}
+
+.skillsContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.skillCard{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background:linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    box-shadow: 5px 5px 5px #0f2027;
+}
+
+.percentage{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: #04fc43;
+    transform: rotate(270deg);
+}
+
+.percentage svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.percentage svg circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+transform: translate(5px, 5px);
+}
+.percentage svg circle:nth-child(2){
+    stroke: #04fc43;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 85) / 100);
+}
+
+.dot{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+}
+
+.dot::before{
+    content: "";
+    position: absolute;
+    top: -5px ;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+height: 10px;
+width: 10px;
+background: #04fc43;
+box-shadow: 0 0 10px #04fc43;
+}

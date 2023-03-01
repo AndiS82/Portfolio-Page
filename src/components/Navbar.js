@@ -23,7 +23,7 @@ const Nose = () =>{
 console.log(theme.theme)
 
 return(
-    <nav className="navbarWrapper">
+    <nav className={theme.theme === "light"?"navbarWrapper":"navbarWrapperDark"}>
         <div className="toggleContainer">
     <label className="logoContainer">
         <input type="checkbox" onChange={Nose} className="checkbox"></input>
@@ -36,8 +36,8 @@ return(
 <h4>{german.german==="german"?"Projects":"Projekte"}</h4>
     </nav>
     <div className="navbarSocialMedia">
-<p className="navbarP">{<GrLinkedin className="reactIcon"/>}</p>
-<p className="navbarP">{<GrGithub className="reactIcon"/>}</p>
+<a href="https://www.linkedin.com/in/andreas-schneider-bb1b21262/"  className="navbarA">{<GrLinkedin className="LI"/>}</a>
+<a href="https://github.com/AndiS82" className="navbarA">{<GrGithub  className="Git"/>}</a>
     </div>
     <div  className="navButtonDiv">
     <button className="navbarButton">{german.german === "german"? "Contact Me!":"Schreib mir! "}</button>
