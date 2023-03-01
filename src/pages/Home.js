@@ -35,7 +35,7 @@ return (
 <AboutMeComponent toggleLanguage={toggleLanguage} toggleTheme={toggleTheme} LanguageContext={LanguageContext} ThemeContext={ThemeContext}/>
 </main>
 <footer>
-<Footer/>
+<Footer toggleLanguage={toggleLanguage} toggleTheme={toggleTheme} LanguageContext={LanguageContext} ThemeContext={ThemeContext}/>
 </footer>
     </div>
 )}
