@@ -2,9 +2,10 @@ import './Home.css';
 import { Navbar } from '../components/Navbar';
 import { HiArrowRightCircle } from "react-icons/hi2";
 import {useContext } from 'react';
-import { AboutMe } from '../components/AboutMe';
+import { AboutMeComponent } from '../components/AboutMe';
 import { Footer } from '../components/Footer';
-import Languages from "../Data/Languages.json"
+import Languages from "../Data/Languages.json";
+import CallMe from "../img/call me memoji.png"
 
 function Home({toggleLanguage, toggleTheme, LanguageContext, ThemeContext}) {
     const german = useContext(LanguageContext)
@@ -20,15 +21,18 @@ return (
 <header>
 <Navbar toggleLanguage={toggleLanguage} toggleTheme={toggleTheme}/>
 <div className={theme.theme === "light"?"headerContainer":"headerContainerDark"}>
-<h2>{german.german ==="german"? "Welcome to my Portfolio!":"Willkommen auf meiner Portfolioseite!"}</h2>
+<h2>{Home.h2}</h2>
 <h1>{Home.h1}</h1>
 <h1 id='fullStack'>{"<Full Stack Web Developer/>"}</h1>
-<p>{german.german === "german"? "I'd absolutely love to make your web presence fun and exciting - one pixel at a time!":"Ich werde deinen Web-Auftritt cool und aufregend in Szene setzen - Pixel für Pixel!"}</p>
-<h3 className={theme.theme === "light"?"getInTouch":"getInTouchDark"}>{german.german === "german"? "Let's get in touch!":"Kontaktiere mich!"} {<HiArrowRightCircle className='icon'/>}</h3>
+<p>{Home.p}</p>
+<h3 className={theme.theme === "light"?"getInTouch":"getInTouchDark"}>{Home.h3} {<HiArrowRightCircle className='icon'/>}</h3>
+<div className='memojiContainer'>
+<img className='callMeMemoji' src={CallMe} alt='Call me gesture memoji'></img>
+</div>
 </div>
 </header>
 <main>
-<AboutMe/>
+<AboutMeComponent toggleLanguage={toggleLanguage} toggleTheme={toggleTheme} LanguageContext={LanguageContext} ThemeContext={ThemeContext}/>
 </main>
 <footer>
 <Footer/>

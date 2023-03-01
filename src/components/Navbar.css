@@ -8,6 +8,13 @@
     border-bottom-left-radius: 50% 40%;
     border-bottom-right-radius: 50% 40%;
     position: fixed;
+    z-index: 3;
+    opacity: 97%;
+}
+
+.helloMemoji{margin: 0 0 15% 30%;
+    height: 60%;
+    width: 60%;
 }
 
 .navbarWrapperDark{
@@ -16,52 +23,19 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(to right, #0f2027, #203a43,#2c5364);
+    background: linear-gradient(to right, #283756, #59758f,#59758f,#283756);
+    background-blend-mode: darken;
     border-bottom-left-radius: 50% 40%;
     border-bottom-right-radius: 50% 40%;
     position: fixed;
+    z-index: 3;
+    opacity: 97%;
 }
 
-.logoContainer{
+.memojiContainer{
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-
-.checkbox{
-    margin-left: 50px;
-    position: relative;
-width: 80px;
-height: 50px;
-appearance: none;
-background: #ffffff;
-outline: none;
-border-radius: 20px;
-box-shadow: 0 0 0 5px #111111;
-transition: .5s;
-cursor: pointer;
-}
-
-.checkbox:checked{
-background:#ffffff;
-}
-.checkbox:before{
-
-    position: absolute;
-    content: "";
-    background-image: linear-gradient(to right, #04619F , #000000);
-    top: 5px;
-    left: 2px;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    box-shadow: 0 2px 5px #111111;
-    transition: .5s;
-    }
-
-.checkbox:checked:before{
-left: 38px;
 }
 
 .navbarMain{
@@ -73,13 +47,6 @@ left: 38px;
 
 h4{ 
     font-size: 2rem;
-    color: #ece9e6;
-}
-
-.nose{
-    margin-left: 50px;
-    font-size: 2rem;
-    text-align: center;
     color: #ece9e6;
 }
 
