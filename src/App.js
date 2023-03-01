@@ -30,9 +30,9 @@ const [theme, setTheme] = useState("light")
 <Router>
   <Routes>
     <Route path='/' element={<Home toggleLanguage={toggleLanguage} toggleTheme={toggleTheme} ThemeContext={ThemeContext} LanguageContext={LanguageContext}/>}/>
-    <Route path="/skills" element={<Skills/>}/>
-    <Route path="/projects" element={<Projects/>}/>
-    <Route path='/contact' element={<Contact/>}/>
+    <Route path="/skills" element={<Skills toggleLanguage={toggleLanguage} toggleTheme={toggleTheme} ThemeContext={ThemeContext} LanguageContext={LanguageContext}/>}/>
+    <Route path="/projects" element={<Projects toggleLanguage={toggleLanguage} toggleTheme={toggleTheme} ThemeContext={ThemeContext} LanguageContext={LanguageContext}/>}/>
+    <Route path='/contact' element={<Contact toggleLanguage={toggleLanguage} toggleTheme={toggleTheme} ThemeContext={ThemeContext} LanguageContext={LanguageContext}/>}/>
   </Routes>
 </Router>
   </LanguageContext.Provider>

@@ -27,7 +27,20 @@
     opacity: 97%;
 }
 
-.helloMemoji{margin: 0 0 15% 30%;
+.backButton{
+    margin-left: 5%;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    color:#ece9e6;
+}
+
+.backIcon{
+    font-size: 2.5rem;
+    color: #ece9e6;
+}
+
+.helloMemoji{margin: 0 15% 15% 30%;
     height: 60%;
     width: 60%;
 }
@@ -133,4 +146,8 @@ h4{
 
 .reactIcon:hover{
     color: #ece9e6;
+}
+
+.Link{cursor: pointer;
+    text-decoration: none;
 }
