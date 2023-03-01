@@ -6,6 +6,7 @@ import { LanguageContext, ThemeContext } from "../App";
 import deutsch from "../img/German-flag-emoji.png";
 import english from "../img/British-flag-emoji.png";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Languages from "../Data/Languages.json"
 
 
 
@@ -14,7 +15,8 @@ export const Navbar = ({toggleLanguage, toggleTheme}) => {
     const theme = useContext(ThemeContext)
 
 const [nose, setNose] = useState(false)
-
+const Text = german.german;
+const {Navbar} = Languages[Text]
 
 const Nose = () =>{
     setNose(prev=> !prev)
@@ -33,7 +35,7 @@ return(
     <nav className="navbarMain">
 <h4>Home</h4>
 <Link to="section" smooth={true}><h4>Skills</h4></Link> 
-<h4>{german.german==="german"?"Projects":"Projekte"}</h4>
+<h4>{Navbar.projects}</h4>
     </nav>
     <div className="navbarSocialMedia">
 <a href="https://www.linkedin.com/in/andreas-schneider-bb1b21262/"  className="navbarA">{<GrLinkedin className="LI"/>}</a>
@@ -41,7 +43,7 @@ return(
     </div>
     <div  className="navButtonDiv">
     <button className="navbarButton">{german.german === "german"? "Contact Me!":"Schreib mir! "}</button>
-    <button className="navbarButton" onClick={toggleLanguage}>{german.german === "german"?<img className="flag" src={deutsch}></img> : <img className="flag" src={english}></img>}</button>
+    <button className="navbarButton" onClick={toggleLanguage}>{german.german === "german"?<img className="flag" src={english}></img> : <img className="flag" src={deutsch}></img>}</button>
     </div>
     <div>
     <button className="themeButton" onClick={toggleTheme}>{theme.theme === "light"? <HiOutlineMoon className="reactIcon" />:<HiOutlineSun className="reactIcon"/>}</button>
