@@ -1,3 +1,18 @@
+@font-face {
+    font-family:RobotoLight;
+    src: url("../fonts/Roboto-Light.ttf");
+  }
+  
+  @font-face {
+    font-family:RobotoMedium;
+    src: url("../fonts/Roboto-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family:Robotobold;
+    src: url("../fonts/Roboto-Bold.ttf");
+  }
+
 .aboutMeContainer{
 position: relative;
 display: flex;
@@ -14,6 +29,7 @@ opacity: 45%;
 }
 
 .aboutMeContainer h2{
+    font-family:Robotobold;
     position: absolute;
     top: 15%;
     margin: 1% 5%;
@@ -23,6 +39,7 @@ color: #ece9e6;
 }
 
 .aboutMeContainer p{
+    font-family:RobotoLight;
     top: 30%;
     position: absolute;
     margin: 1% 5%;
