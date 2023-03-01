@@ -32,6 +32,7 @@
     width: 350px;
     height: 350px;
     background:linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    box-shadow: 5px 5px 5px #0f2027;
 }
 
 .percentage{

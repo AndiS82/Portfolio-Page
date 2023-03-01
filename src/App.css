@@ -20,9 +20,7 @@ header{
 
 .headerContainer h2{
   font-size: 3rem;
-  background: linear-gradient(to right, #667db6, #0082c8,#0082c8, #667db6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+color: #141e30;
 }
 
 #light{
@@ -41,15 +39,25 @@ header{
 .headerContainer h1{
   padding: 5% 5% 1% 5%;
   font-size: 4rem;
-}
+  background: linear-gradient(to right, #466196, #8DB9E3,#ADD8E6,#8DB9E3,#466196);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}  
+#fullStack{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 .headerContainer p{
+  color: #141e30;
   margin-left: 10%;
   padding: 2%;
   font-size: 2rem;
 }
 
 .getInTouch{font-size: 3rem;
-  margin: 5% 0 0 15%
+  margin: 5% 0 0 15%;
+  color: #141e30;
 }
 
 .headerImg{
