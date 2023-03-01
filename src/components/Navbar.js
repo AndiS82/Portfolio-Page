@@ -5,6 +5,7 @@ import { useState, useContext } from "react";
 import { LanguageContext, ThemeContext } from "../App";
 import deutsch from "../img/German-flag-emoji.png";
 import english from "../img/British-flag-emoji.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 
@@ -31,7 +32,7 @@ return(
         <p className="mouth">{nose === true? "‿" : "︵"}</p></div>
     <nav className="navbarMain">
 <h4>Home</h4>
-<h4>Skills</h4>
+<Link to="section" smooth={true}><h4>Skills</h4></Link> 
 <h4>{german.german==="german"?"Projects":"Projekte"}</h4>
     </nav>
     <div className="navbarSocialMedia">
