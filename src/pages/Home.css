@@ -1,3 +1,18 @@
+@font-face {
+  font-family:RobotoLight;
+  src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family:RobotoMedium;
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family:Robotobold;
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +32,7 @@
   }
   
   .headerContainer h2{
-
+    font-family:RobotoMedium;
     margin-top:20% ;
     font-size: 3rem;
   color: #141e30;
@@ -44,6 +59,7 @@
   }
   
   .headerContainer h1{
+    font-family:Robotobold;
     padding: 5% 5% 1% 5%;
     font-size: 4rem;
     background: linear-gradient(to right, #466196, #8DB9E3,#ADD8E6,#8DB9E3,#466196);
@@ -52,6 +68,7 @@
   }
   
   .headerContainerDark h1{
+    font-family:Robotobold;
     padding: 5% 5% 1% 5%;
     font-size: 4rem;
     background: linear-gradient(to right, #283756, #59758f,#59758f,#283756);
@@ -67,6 +84,7 @@
     justify-content: center;
     }
   .headerContainer p{
+    font-family:RobotoLight;
     color: #141e30;
     margin-left: 10%;
     padding: 2%;
@@ -74,6 +92,7 @@
   }
 
   .headerContainerDark p{
+    font-family:RobotoLight;
     color: #ece9e6;
     margin-left: 10%;
     padding: 2%;
@@ -81,6 +100,7 @@
   }
   
   .getInTouch{
+    font-family:RobotoMedium;
     width: 40%;
     font-size: 3rem;
     margin: 5% 0 0 15%;

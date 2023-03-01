@@ -1,3 +1,18 @@
+@font-face {
+    font-family:RobotoLight;
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family:RobotoMedium;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family:Robotobold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
 .navbarWrapper{
     height: 250px;
     width: 100%;
@@ -46,6 +61,7 @@
 }
 
 h4{ 
+    font-family: RobotoBold;
     font-size: 2rem;
     color: #ece9e6;
 }
@@ -82,6 +98,7 @@ h4{
 }
 
 .navButtonDiv button{
+    font-family:RobotoMedium;
     font-size: 2rem;
     color:#ece9e6;
 }
