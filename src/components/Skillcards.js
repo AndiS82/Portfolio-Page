@@ -22,31 +22,31 @@ const {SkillCard} = Languages[Text]
         <section className="skillsSection">
             <div className="skillsWrapper">
             <div className={theme.theme === "light"?"headlineContainer":"headlineContainerDark"}>
-                <h2>{SkillCard.h2}</h2>
+                <h2 className="const">{SkillCard.h2}<span className="span1">{SkillCard.span1}<span className="span2">{SkillCard.span2}<span className="span3">{SkillCard.span3}</span></span></span></h2>
         <div className="skillsContainer">
         <div className={theme.theme === "light"?"skillCard":"skillCardDark"}>
-            <div className="percentage">
-                <div className="dot"></div>
-                <svg>
-                    <circle cx="70" cy="70" r="70"></circle>
-                    <circle cx="70" cy="70" r="70"></circle>
+            <div className="percentageHTML">
+                <div className="dotHTML"></div>
+                <svg className="svgHTML">
+                    <circle className="circle" cx="70" cy="70" r="70"></circle>
+                    <circle className="circleHTML2" cx="70" cy="70" r="70"></circle>
                 </svg>
                 
                 <div className="number">
-                <h3>85<span>%</span></h3>
+                <h3>95<span>%</span></h3>
                 
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">HTML5</h4><img className="logo" src={html5}></img>
            </div> </div>
         </div>
-        <h3>,</h3>
+        <h3 className="comma">,</h3>
         <div className={theme.theme === "light"?"skillCard":"skillCardDark"}>
-        <div className="percentage">
-                <div className="dot"></div>
-                <svg>
-                    <circle cx="70" cy="70" r="70"></circle>
-                    <circle cx="70" cy="70" r="70"></circle>
+        <div className="percentageCSS">
+                <div className="dotCSS"></div>
+                <svg className="svgCSS">
+                    <circle className="circleCSS" cx="70" cy="70" r="70"></circle>
+                    <circle className="circleCSS2" cx="70" cy="70" r="70"></circle>
                 </svg>
                 
                 <div className="number">
@@ -58,97 +58,99 @@ const {SkillCard} = Languages[Text]
            </div> </div>
            
         </div>
-        <h3>,</h3>
-        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentage">
-                <div className="dot"></div>
-                <svg>
+        <h3 className="comma">,</h3>
+        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}>
+            <div className="percentageSASS">
+                <div className="dotSASS"></div>
+                <svg className="svgSASS">
                     <circle cx="70" cy="70" r="70"></circle>
                     <circle cx="70" cy="70" r="70"></circle>
                 </svg>
                 
                 <div className="number">
-                <h3>85<span>%</span></h3>
+                <h3>65<span>%</span></h3>
                 
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">SASS</h4><img className="logo" src={sass}></img>
            </div> </div></div>
-           <h3>,</h3>
-        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentage">
-                <div className="dot"></div>
-                <svg>
+           <h3 className="comma">,</h3>
+        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentageJS">
+                <div className="dotJS"></div>
+                <svg className="svgJS">
                     <circle cx="70" cy="70" r="70"></circle>
                     <circle cx="70" cy="70" r="70"></circle>
                 </svg>
                 
                 <div className="number">
-                <h3>85<span>%</span></h3>
+                <h3>80<span>%</span></h3>
                 
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">JavaScript</h4><img className="logo" src={javascript}></img>
            </div> </div></div>
-           <h3>,</h3>
-        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentage">
-                <div className="dot"></div>
-                <svg>
+           <h3 className="comma">,</h3>
+        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}>
+            <div className="percentageR">
+                <div className="dotR"></div>
+                <svg className="svgR">
                     <circle cx="70" cy="70" r="70"></circle>
                     <circle cx="70" cy="70" r="70"></circle>
                 </svg>
                 
                 <div className="number">
-                <h3>85<span>%</span></h3>
+                <h3>80<span>%</span></h3>
                 
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">React.js</h4><img className="logo" src={react}></img>
            </div> </div></div>
-           <h3>,</h3>
-        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentage">
-                <div className="dot"></div>
-                <svg>
+           <h3 className="comma">,</h3>
+        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentageRX">
+                <div className="dotRX"></div>
+                <svg className="svgRX">
                     <circle cx="70" cy="70" r="70"></circle>
                     <circle cx="70" cy="70" r="70"></circle>
                 </svg>
                 
                 <div className="number">
-                <h3>85<span>%</span></h3>
+                <h3>70<span>%</span></h3>
                 
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">Redux.js</h4><img className="logo" src={redux}></img>
            </div> </div></div>
-           <h3>,</h3>
-        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentage">
-                <div className="dot"></div>
-                <svg>
+           <h3 className="comma">,</h3>
+        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentageEX">
+                <div className="dotEX"></div>
+                <svg className="svgEX">
                     <circle cx="70" cy="70" r="70"></circle>
                     <circle cx="70" cy="70" r="70"></circle>
                 </svg>
                 
                 <div className="number">
-                <h3>85<span>%</span></h3>
+                <h3>75<span>%</span></h3>
                 
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">Express.js</h4><img className="logo" src={express}></img>
            </div> </div></div>
-           <h3>,</h3>
-        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentage">
-                <div className="dot"></div>
-                <svg>
+           <h3 className="comma">,</h3>
+        <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentageN">
+                <div className="dotN"></div>
+                <svg className="svgN">
                     <circle cx="70" cy="70" r="70"></circle>
                     <circle cx="70" cy="70" r="70"></circle>
                 </svg>
                 
                 <div className="number">
-                <h3>85<span>%</span></h3>
+                <h3>75<span>%</span></h3>
                 
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">Node.js</h4><img className="logo" src={node}></img>
            </div> </div></div>
-           <h3 className="comma">{SkillCard.closedArray}</h3>
+           <h3 className="closedArray">{SkillCard.closedArray}</h3>
          </div>
          <a href="https://github.com/AndiS82" className={theme.theme === "light"?"checkOutMyProfile":"checkOutMyProfileDark"}>Check out my GitHub profile for more!{<img className="winkMemoji" src={wink}></img>}</a>
          <h2></h2>

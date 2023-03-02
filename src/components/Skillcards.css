@@ -11,7 +11,8 @@
 }
 
 .headlineContainer h2{
-    color: #141e30;
+    width: 100%S;
+    color:mediumorchid;
     font-size: 3rem;
     display: flex;
     align-items: center;
@@ -21,7 +22,8 @@
 }
 
 .headlineContainerDark h2{
-    color: #ece9e6;
+    width: 100%;
+    color: mediumorchid;
     font-size: 3rem;
     display: flex;
     align-items: center;
@@ -63,7 +65,7 @@
     box-shadow: 5px 5px 5px #0f2027;
 }
 
-.percentage{
+/*.percentage{
     position: relative;
     width: 150px;
     height: 150px;
@@ -109,7 +111,7 @@ opacity: 0;
     position: absolute;
     inset: 5px;
     z-index: 10;
-    /*transform: rotate(calc(3.6deg * 85));*/
+    transform: rotate(calc(3.6deg * 85));
     animation: animateDot 1s linear forwards;
 }
 @keyframes animateDot {
@@ -134,6 +136,592 @@ width: 10px;
 background: #04fc43;
 box-shadow: 0 0 10px #04fc43;
 }
+*/
+
+/*=======HTML5=======*/
+.percentageHTML{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color:chocolate;
+
+}
+
+.percentageHTML .svgHTML{
+    position: relative;
+    width: 150px;
+    height: 150px;
+        transform: rotate(270deg);
+}
+
+.percentageHTML .svgHTML circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+transform: translate(5px, 5px);
+}
+.percentageHTML .svgHTML circle:nth-child(2){
+    stroke: chocolate;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 95) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: .5s;
+}
+@keyframes fadeIn{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.dotHTML{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    /*transform: rotate(calc(3.6deg * 85));*/
+    animation: animateDotHTML 1s linear forwards;
+}
+@keyframes animateDotHTML {
+    0%{
+        transform: rotate(0deg);
+    }
+100%
+{
+transform: rotate(calc(3.6deg*95));
+}
+    
+}
+.dotHTML::before{
+    content: "";
+    position: absolute;
+    top: -5px ;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+height: 10px;
+width: 10px;
+background: chocolate;
+box-shadow: 0 0 10px chocolate;
+}
+
+
+/*=======CSS=======*/
+.percentageCSS{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: dodgerblue;
+
+}
+
+.percentageCSS .svgCSS{
+    position: relative;
+    width: 150px;
+    height: 150px;
+        transform: rotate(270deg);
+}
+
+.percentageCSS .svgCSS circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+transform: translate(5px, 5px);
+}
+.percentageCSS .svgCSS circle:nth-child(2){
+    stroke:dodgerblue;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 85) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: .5s;
+}
+@keyframes fadeIn{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.dotCSS{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    /*transform: rotate(calc(3.6deg * 85));*/
+    animation: animateDotCSS 1s linear forwards;
+}
+@keyframes animateDotCSS {
+    0%{
+        transform: rotate(0deg);
+    }
+100%
+{
+transform: rotate(calc(3.6deg * 85));
+}
+    
+}
+.dotCSS::before{
+    content: "";
+    position: absolute;
+    top: -5px ;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+height: 10px;
+width: 10px;
+background: dodgerblue;
+box-shadow: 0 0 10px dodgerblue;
+}
+
+/*=======SASS=======*/
+.percentageSASS{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: palevioletred;
+
+}
+
+.svgSASS{
+    position: relative;
+    width: 150px;
+    height: 150px;
+        transform: rotate(270deg);
+}
+
+.svgSASS circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+transform: translate(5px, 5px);
+}
+.svgSASS circle:nth-child(2){
+    stroke:palevioletred;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 65) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: .5s;
+}
+@keyframes fadeIn{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.dotSASS{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    /*transform: rotate(calc(3.6deg * 85));*/
+    animation: animateDotSASS 1s linear forwards;
+}
+@keyframes animateDotSASS {
+    0%{
+        transform: rotate(0deg);
+    }
+100%
+{
+transform: rotate(calc(3.6deg*65));
+}
+    
+}
+.dotSASS::before{
+    content: "";
+    position: absolute;
+    top: -5px ;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+height: 10px;
+width: 10px;
+background: palevioletred;
+box-shadow: 0 0 10px palevioletred;
+}
+
+/*=======JAVASCRIPT=======*/
+.percentageJS{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: gold;
+
+}
+
+.svgJS{
+    position: relative;
+    width: 150px;
+    height: 150px;
+        transform: rotate(270deg);
+}
+
+.svgJS circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+transform: translate(5px, 5px);
+}
+.svgJS circle:nth-child(2){
+    stroke:gold;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: .5s;
+}
+@keyframes fadeIn{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.dotJS{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    /*transform: rotate(calc(3.6deg * 85));*/
+    animation: animateDotJS 1s linear forwards;
+}
+@keyframes animateDotJS {
+    0%{
+        transform: rotate(0deg);
+    }
+100%
+{
+transform: rotate(calc(3.6deg*80));
+}
+    
+}
+.dotJS::before{
+    content: "";
+    position: absolute;
+    top: -5px ;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+height: 10px;
+width: 10px;
+background: gold;
+box-shadow: 0 0 10px gold;
+}
+
+/*=======REACT=======*/
+.percentageR{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: cyan;
+
+}
+
+.svgR{
+    position: relative;
+    width: 150px;
+    height: 150px;
+        transform: rotate(270deg);
+}
+
+.svgR circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+transform: translate(5px, 5px);
+}
+.svgR circle:nth-child(2){
+    stroke:cyan;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: .5s;
+}
+@keyframes fadeIn{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.dotR{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    /*transform: rotate(calc(3.6deg * 85));*/
+    animation: animateDotR 1s linear forwards;
+}
+@keyframes animateDotR {
+    0%{
+        transform: rotate(0deg);
+    }
+100%
+{
+transform: rotate(calc(3.6deg*80));
+}
+    
+}
+.dotR::before{
+    content: "";
+    position: absolute;
+    top: -5px ;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+height: 10px;
+width: 10px;
+background:cyan;
+box-shadow: 0 0 10px cyan;
+}
+
+/*=======REDUX=======*/
+.percentageRX{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color:blueviolet;
+
+}
+
+.svgRX{
+    position: relative;
+    width: 150px;
+    height: 150px;
+        transform: rotate(270deg);
+}
+
+.svgRX circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+transform: translate(5px, 5px);
+}
+.svgRX circle:nth-child(2){
+    stroke:blueviolet;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: .5s;
+}
+@keyframes fadeIn{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.dotRX{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    /*transform: rotate(calc(3.6deg * 85));*/
+    animation: animateDotRX 1s linear forwards;
+}
+@keyframes animateDotRX {
+    0%{
+        transform: rotate(0deg);
+    }
+100%
+{
+transform: rotate(calc(3.6deg*70));
+}
+    
+}
+.dotRX::before{
+    content: "";
+    position: absolute;
+    top: -5px ;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+height: 10px;
+width: 10px;
+background: blueviolet;
+box-shadow: 0 0 10px blueviolet;
+}
+
+/*=======REACT=======*/
+.percentageEX{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: white;
+
+}
+
+.svgEX{
+    position: relative;
+    width: 150px;
+    height: 150px;
+        transform: rotate(270deg);
+}
+
+.svgEX circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+transform: translate(5px, 5px);
+}
+.svgEX circle:nth-child(2){
+    stroke:white;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 75) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: .5s;
+}
+@keyframes fadeIn{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.dotEX{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    /*transform: rotate(calc(3.6deg * 85));*/
+    animation: animateDotEX 1s linear forwards;
+}
+@keyframes animateDotEX {
+    0%{
+        transform: rotate(0deg);
+    }
+100%
+{
+transform: rotate(calc(3.6deg*75));
+}
+    
+}
+.dotEX::before{
+    content: "";
+    position: absolute;
+    top: -5px ;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+height: 10px;
+width: 10px;
+background:white;
+box-shadow: 0 0 10px white;
+}
+/*=======REACT=======*/
+.percentageN{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: lawngreen;
+
+}
+
+.svgN{
+    position: relative;
+    width: 150px;
+    height: 150px;
+        transform: rotate(270deg);
+}
+
+.svgN circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+transform: translate(5px, 5px);
+}
+.svgN circle:nth-child(2){
+    stroke:lawngreen;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 75) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: .5s;
+}
+@keyframes fadeIn{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.dotN{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    /*transform: rotate(calc(3.6deg * 85));*/
+    animation: animateDotN 1s linear forwards;
+}
+@keyframes animateDotN {
+    0%{
+        transform: rotate(0deg);
+    }
+100%
+{
+transform: rotate(calc(3.6deg*75));
+}
+    
+}
+.dotN::before{
+    content: "";
+    position: absolute;
+    top: -5px ;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+height: 10px;
+width: 10px;
+background:lawngreen;
+box-shadow: 0 0 10px lawngreen;
+}
+
 
 .number{
     position: absolute;
@@ -210,5 +798,40 @@ margin-top: 10%;
 
 .checkOutMyProfileDark:hover{
 text-decoration: underline;
+}
+
+.comma{
+    font-size: 3rem;
+    color:#808080;
+}
+
+.span1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    color:goldenrod;
+}
+.span2{    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    color:cornflowerblue;
+}
+
+.span3{    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    color:mediumorchid;
+}
+
+.closedArray{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    color:mediumorchid; 
+    font-size: 3rem;
 }
 
