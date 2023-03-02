@@ -76,13 +76,12 @@
     -webkit-text-fill-color: transparent;
   }
 
-
-
   #fullStack{
     display: flex;
     align-items: center;
     justify-content: center;
     }
+    
   .headerContainer p{
     font-family:RobotoLight;
     color: #141e30;

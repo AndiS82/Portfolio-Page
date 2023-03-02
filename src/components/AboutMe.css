@@ -1,3 +1,4 @@
+
 @font-face {
     font-family:RobotoLight;
     src: url("../fonts/Roboto-Light.ttf");
@@ -13,6 +14,12 @@
     src: url("../fonts/Roboto-Bold.ttf");
   }
 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .aboutMeContainer{
 position: relative;
 display: flex;
@@ -20,12 +27,14 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 background-color: #141e30;
+overflow: hidden;
 }
 
 .C64{
 height: 100vh;
 background-size: contain;
 opacity: 45%;
+filter: saturate(60%);
 }
 
 .aboutMeContainer h2{
@@ -39,11 +48,13 @@ color: #ece9e6;
 }
 
 .aboutMeContainer p{
+  text-align:center;
     font-family:RobotoLight;
     top: 30%;
     position: absolute;
     margin: 1% 5%;
 z-index: 2;
-font-size: 1.5rem;
+font-size: 1.2rem;
 color: #ece9e6;
+line-height: 2;
 }
