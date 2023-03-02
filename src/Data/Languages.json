@@ -1,34 +1,35 @@
 {
-    "english":{
-        "Navbar":{
+    "english": {
+        "Navbar": {
             "projects": "Projects",
-            "contactMe":"Contact Me!"
+            "contactMe": "Contact Me!"
         },
-        "Home":{
-            "h2":"Welcome to my portfolio page, dear visitor!",
-            "h1":"Hi there! I'm Andy",
-            "p":"I'd absolutely love to make your web presence fun and exciting - one pixel at a time!",
-            "h3":"Let's get in touch!"
+        "Home": {
+            "h2": "Welcome to my portfolio page, dear visitor!",
+            "h1": "Hi there! I'm Andy",
+            "p": "I'd absolutely love to make your web presence fun and exciting - one pixel at a time!",
+            "h3": "Let's get in touch!"
         },
-        "AboutMe":{
-            "h2":"About Me",
-            "p":"I always loved tech. True story, not just a cliché! Even got my first computer (a C64) when I was 9 years old. I also have a knack for languages, so naturally BASIC fascinated me and the ability to talk to a machine in code simply blew my mind. Back then I would have loved to have somebody to teach me how to code, but nobody could, so I mainly used the C64 to play those prehistoric (but fun) games, dreaming that one day I'm going to delve into the magic of code myself. Fast forward to 2017. I was a translator and one of my clients gave me a website to translate. That's when I took a peek behind the curtains and discovered that, while there still wasn't anybody in my social circle who could teach me to code, thanks to online courses, books and tutorials, I could just learn it myself, instead. And that's just what I did! I learned HTML5, CSS and JS whenever my tight schedule allowed, coded some very basic projects and games (yeah, those prehistoric games I used to play when I was a child), but never thought of becoming a professional programmer. That was until I lost my job in 2022. Always the optimist, I saw an opportunity to finally grab the bull by the horns and become on of those coding-wizards, who speak in magic languages that allowed you to talk to machines and make games appear. Naturally I enrolled in a Full Stack Web Development Bootcamp as soon as I could afford it and finally became a certified Full Stack Web Dev! Now I'm on a quest to make the web fun and exciting for everybody - one pixel at a time!"
+        "AboutMe": {
+            "h2": "About Me",
+            "p1": "I always loved tech. Sounds pretty cliché, but it's true! Even got my first computer (a C64) when I was 9 years old. I also have a knack for languages, so naturally BASIC fascinated me and the ability to talk to a machine in code and see it do stuff with my inputs simply blew my mind. Back then I would have loved to have somebody to teach me how to code, but nobody could, so I mainly used the C64 to play those prehistoric (but fun) games, dreaming that one day I'm going to master the magic of code myself. Fast forward to 2017. I was a translator and one of my clients gave me a website to translate. That's when I took a peek behind the curtains and discovered that, while there still wasn't anybody in my social circle who could teach me to code, thanks to online courses, books and tutorials, I could just learn it myself, instead. And that's just what I did! I learned HTML5, CSS and JS whenever my tight schedule allowed, coded some very basic projects and games (yeah, those prehistoric games I used to play when I was a child), but never thought of becoming a professional programmer. That was until I lost my job in 2022. Always the optimist, I saw an opportunity to finally grab the bull by the horns and become on of those coding-wizards, who whisper to computers in mysterious languages that magically make all the cool stuff we use (and love) appear on our screens. Naturally I enrolled in a Full Stack Web Development Bootcamp as soon as I could afford it and finally became a certified Full Stack Web Dev! Now I'm one of those mysterious Web Wizards myself, on a quest to make the internet fun and exciting for everybody - one pixel at a time!"
         }
     },
-    "german":{
-        "Navbar":{
+    "german": {
+        "Navbar": {
             "projects": "Projekte",
-            "contactMe":"Schreib mir!"
+            "contactMe": "Schreib mir!"
         },
-        "Home":{
-            "h2":"Willkommen auf meiner Portfolioseite!",
-            "h1":"Hallo! ich bin Andreas",
-            "p":"Ich werde deinen Web-Auftritt cool und aufregend in Szene setzen - Pixel für Pixel!",
-            "h3":"Kontaktiere mich!"
+        "Home": {
+            "h2": "Willkommen auf meiner Portfolioseite!",
+            "h1": "Hallo! ich bin Andreas",
+            "p1": "Ich werde deinen Web-Auftritt cool und aufregend in Szene setzen - Pixel für Pixel!",
+            "h3": "Kontaktiere mich!"
         },
-        "AboutMe":{
-            "h2":"Über mich",
-            "p":"Ich war schon immer tech-begeistert! Meinen ersten Computer bekam ich mit 9 Jahren, einen coolen C64. Da ich szudem ein ziemliches Fremdsprachen-Ass bin, faszinierte mich BASIC logischerweise und die Möglichkeit, zu einer Maschine in Code sprechen zu können, haute mich vollkommen aus den Socken. Oh was hätte ich damals dafür gegeben, jemanden zu haben, der mich in die Magie des Programmierens unterweisen hätte können, aber leider waren diese Art von Zauberern damals rar, sodass ich den C64 hauptsächlich zum Spielen dieser charmanten, aber heutzutage prähistorisch anmutenden Spiele nutzte. 2017, ich war zwar nach wie vor kein Code-Muffel, eher ein Code-Muggle, der sich damit begnügte, sich seinen Lebensunterhalt mit Übersetzungen zu verdienen. Eines Tages erhielt ich einen Auftrag, eine Website zu übersetzen und das war der magische Moment, in dem ich einen Blick hinter die Kulissen wagte und beschloss, mir die Magie des Codens selbst anzueignen. Gesagt, getan. Ich brachte mir HTML5, CSS und JS bei, programmierte einige kleine Projekte und sogar einige dieser prähistorischen Spiele aus meiner Kindheit, wann immer es meine Arbeit zuließ. Aber den Schritt zum professionellen Programmierer hatte ich nie gewagt...bis 2022, als ich durch einen Schicksalsschlag meinen Arbeitsplatz verlor. Was zunächst als Katastrophe anmutete, sah ich als Chance, denn nun hatte ich die Gelegenheit an einem Full Stack Web Developement Bootcamp teilzunehmen und schlussendlich, über viele Umwege, selbst einer dieser rar gesäten Code-Magier geworden bin: Der Traumberuf meiner Kindheit! Endlich kann nun auch ich das Internet mit meinen magischen Codezeilen cool, spaßig und aufregend machen - Pixel für Pixel!"
+        "AboutMe": {
+            "h2": "Über mich",
+            "p1": "Ich war schon immer tech-begeistert und -affin! Das klingt wie ein abgedroschenes Klischee, das jeder in seine Bewerbung packt, aber es stimmt wirklich. Meinen ersten Computer bekam ich Ende der 80er Jahre, einen damals saucoolen C64. Da ich ein ziemliches Fremdsprachen-Ass bin, faszinierte mich BASIC als Programmiersprache und die Tatsache, dass der Computer meine Befehle in der Kommandozeile nicht nur verstand, sondern etwas damit anzufangen wusste, haute mich vollkommen aus den Socken. Ach, was hätte ich damals dafür gegeben, jemanden zu haben, der mich in die Magie des Programmierens unterweisen hätte können! Leider waren diese Art von Zauberern damals noch rarer gesät, als heute und IT-Literatur, zumindest für einen 9-jährigen Knirps wie mich, schwer zugänglich, sodass mir nicht viel übrig blieb, als den C64 hauptsächlich zum Spielen dieser charmanten, aber heutzutage prähistorisch anmutenden Spiele zu verwenden. Das änderte sich 2017. Ich hätte beinahe Informatik studiert, traute mich aber letzten Endes nicht so ganz, da Mathe und ich nicht gerade best Friends waren, also begnügte ich mich damit, mir meinen Lebensunterhalt mit Übersetzungen zu verdienen. Eines Tages erhielt ich einen Auftrag, eine Website zu übersetzen und das war der magische Moment, in dem ich nicht widerstehen konnte und einen Blick hinter die Kulissen wagte. Mathe hin oder her, ich beschloss, mir die Magie des Codens selbst anzueignen. Gesagt, getan. Ich, mittlerweile Krankenpfleger, lernte HTML5, CSS und JS wann immer mein teilweise brutaler Schichtdienst mir eine kleine Verschnaufspause gönnte. So programmierte ich einige kleine Projekte und sogar einige dieser prähistorischen Spiele aus meiner Kindheit, wann immer es meine Arbeit zuließ. Aber den Schritt zum professionellen Programmierer hatte ich nie gewagt...bis 2022, als ich durch einen Schicksalsschlag meinen Arbeitsplatz verlor. Was zunächst als Katastrophe anmutete, erkannte ich als Chance, denn nun hatte ich die Gelegenheit an einem Full Stack Web Developement Bootcamp teilzunehmen und schlussendlich, über viele Umwege, selbst einer dieser rar gesäten Code-Magier zu werden: Der Traumberuf meiner Kindheit! Endlich kann nun auch ich das Internet mit meinen magischen Codezeilen cool, spaßig und aufregend machen - Pixel für Pixel!",
+            "p2": "Über mich"
         }
     }
 }

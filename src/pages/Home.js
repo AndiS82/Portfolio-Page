@@ -4,15 +4,15 @@ import { HiArrowRightCircle } from "react-icons/hi2";
 import { AboutMeComponent } from '../components/AboutMe';
 import { Footer } from '../components/Footer';
 import Languages from "../Data/Languages.json";
-import {useContext } from 'react';
-import CallMe from "../img/call me memoji.png"
+import {useContext} from 'react';
+import CallMe from "../img/call me memoji.png";
+import { Scroll } from '../components/Scroll';
 
 function Home({toggleLanguage, toggleTheme, LanguageContext, ThemeContext}) {
     const german = useContext(LanguageContext)
     const theme = useContext(ThemeContext)
     const Text = german.german;
 const {Home} = Languages[Text]
-
 
     console.log(theme)
 return (
@@ -32,6 +32,7 @@ return (
 </div>
 </header>
 <main>
+<Scroll/>
 <AboutMeComponent toggleLanguage={toggleLanguage} toggleTheme={toggleTheme} LanguageContext={LanguageContext} ThemeContext={ThemeContext}/>
 </main>
 <footer>

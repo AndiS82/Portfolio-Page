@@ -1,0 +1,198 @@
+.skillsSection{
+    
+}
+
+.skillsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.headlineContainer h2{
+    color: #141e30;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+.headlineContainerDark h2{
+    color: #ece9e6;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+.skillsContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.skillCard{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(to right, #466196, #8DB9E3,#8DB9E3,#466196);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #0f2027;
+}
+
+.skillCardDark{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(to right, #283756, #59758f,#59758f,#283756);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #0f2027;
+}
+
+.percentage{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: #04fc43;
+
+}
+
+.percentage svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+        transform: rotate(270deg);
+}
+
+.percentage svg circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+transform: translate(5px, 5px);
+}
+.percentage svg circle:nth-child(2){
+    stroke: #04fc43;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 85) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+}
+@keyframes fadeIn{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.dot{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    /*transform: rotate(calc(3.6deg * 85));*/
+    animation: animateDot 2s linear forwards;
+}
+@keyframes animateDot {
+    0%{
+        transform: rotate(0deg);
+    }
+100%
+{
+transform: rotate(calc(3.6deg*85));
+}
+    
+}
+.dot::before{
+    content: "";
+    position: absolute;
+    top: -5px ;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+height: 10px;
+width: 10px;
+background: #04fc43;
+box-shadow: 0 0 10px #04fc43;
+}
+
+.number{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+}
+
+.number h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    color: #ece9e6;
+}
+
+.number h3 span{
+    margin-left: 2%;
+    font-weight: 300;
+    color: #ece9e6;
+    font-size: 1vw;
+}
+
+.skillName{
+margin-top: 10%;
+}
+
+.skillLogoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    margin-left: 10%;
+    height: 80px;
+    width: 80px;
+}
+
+.checkOutMyProfile{
+    color: #141e30;
+    margin-top: 2% ;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkOutMyProfileDark{
+    color: #ece9e6;
+    margin-top: 2% ;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

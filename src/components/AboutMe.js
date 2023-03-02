@@ -14,7 +14,7 @@ export const AboutMeComponent = ({toggleLanguage, toggleTheme ,LanguageContext, 
         <div className="aboutMeContainer">
             <img className="C64" src={image}></img>
             <h2>{AboutMe.h2}</h2>
-            <p>{AboutMe.p}</p>
+            <p>{AboutMe.p1}</p>
         </div>
     )
 }
