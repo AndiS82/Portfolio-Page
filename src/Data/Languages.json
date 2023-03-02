@@ -13,6 +13,11 @@
         "AboutMe": {
             "h2": "About Me",
             "p1": "I always loved tech. Sounds pretty cliché, but it's true! Even got my first computer (a C64) when I was 9 years old. I also have a knack for languages, so naturally BASIC fascinated me and the ability to talk to a machine in code and see it do stuff with my inputs simply blew my mind. Back then I would have loved to have somebody to teach me how to code, but nobody could, so I mainly used the C64 to play those prehistoric (but fun) games, dreaming that one day I'm going to master the magic of code myself. Fast forward to 2017. I was a translator and one of my clients gave me a website to translate. That's when I took a peek behind the curtains and discovered that, while there still wasn't anybody in my social circle who could teach me to code, thanks to online courses, books and tutorials, I could just learn it myself, instead. And that's just what I did! I learned HTML5, CSS and JS whenever my tight schedule allowed, coded some very basic projects and games (yeah, those prehistoric games I used to play when I was a child), but never thought of becoming a professional programmer. That was until I lost my job in 2022. Always the optimist, I saw an opportunity to finally grab the bull by the horns and become on of those coding-wizards, who whisper to computers in mysterious languages that magically make all the cool stuff we use (and love) appear on our screens. Naturally I enrolled in a Full Stack Web Development Bootcamp as soon as I could afford it and finally became a certified Full Stack Web Dev! Now I'm one of those mysterious Web Wizards myself, on a quest to make the internet fun and exciting for everybody - one pixel at a time!"
+        },
+        "SkillCard": {
+            "h2": "const myTechStack = [",
+            "a": "<a href=`Check out my GitHub profile for more!`></a>",
+            "closedArray": "]"
         }
     },
     "german": {
@@ -30,6 +35,11 @@
             "h2": "Über mich",
             "p1": "Ich war schon immer tech-begeistert und -affin! Das klingt wie ein abgedroschenes Klischee, das jeder in seine Bewerbung packt, aber es stimmt wirklich. Meinen ersten Computer bekam ich Ende der 80er Jahre, einen damals saucoolen C64. Da ich ein ziemliches Fremdsprachen-Ass bin, faszinierte mich BASIC als Programmiersprache und die Tatsache, dass der Computer meine Befehle in der Kommandozeile nicht nur verstand, sondern etwas damit anzufangen wusste, haute mich vollkommen aus den Socken. Ach, was hätte ich damals dafür gegeben, jemanden zu haben, der mich in die Magie des Programmierens unterweisen hätte können! Leider waren diese Art von Zauberern damals noch rarer gesät, als heute und IT-Literatur, zumindest für einen 9-jährigen Knirps wie mich, schwer zugänglich, sodass mir nicht viel übrig blieb, als den C64 hauptsächlich zum Spielen dieser charmanten, aber heutzutage prähistorisch anmutenden Spiele zu verwenden. Das änderte sich 2017. Ich hätte beinahe Informatik studiert, traute mich aber letzten Endes nicht so ganz, da Mathe und ich nicht gerade best Friends waren, also begnügte ich mich damit, mir meinen Lebensunterhalt mit Übersetzungen zu verdienen. Eines Tages erhielt ich einen Auftrag, eine Website zu übersetzen und das war der magische Moment, in dem ich nicht widerstehen konnte und einen Blick hinter die Kulissen wagte. Mathe hin oder her, ich beschloss, mir die Magie des Codens selbst anzueignen. Gesagt, getan. Ich, mittlerweile Krankenpfleger, lernte HTML5, CSS und JS wann immer mein teilweise brutaler Schichtdienst mir eine kleine Verschnaufspause gönnte. So programmierte ich einige kleine Projekte und sogar einige dieser prähistorischen Spiele aus meiner Kindheit, wann immer es meine Arbeit zuließ. Aber den Schritt zum professionellen Programmierer hatte ich nie gewagt...bis 2022, als ich durch einen Schicksalsschlag meinen Arbeitsplatz verlor. Was zunächst als Katastrophe anmutete, erkannte ich als Chance, denn nun hatte ich die Gelegenheit an einem Full Stack Web Developement Bootcamp teilzunehmen und schlussendlich, über viele Umwege, selbst einer dieser rar gesäten Code-Magier zu werden: Der Traumberuf meiner Kindheit! Endlich kann nun auch ich das Internet mit meinen magischen Codezeilen cool, spaßig und aufregend machen - Pixel für Pixel!",
             "p2": "Über mich"
+        },
+        "SkillCard": {
+            "h2": "const myTechStack = [",
+            "a": "<a href=`Auf meinem GitHub Profil findest du noch viel mehr!`></a>",
+            "closedArray": "]"
         }
     }
 }
