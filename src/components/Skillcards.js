@@ -12,7 +12,7 @@ import wink from "../img/wink emoji.png";
 import Languages from "../Data/Languages.json";
 
 
-export const SkillCards = ({toggleLanguage, toggleTheme, LanguageContext, ThemeContext})=>{
+export const SkillCards = ({ LanguageContext, ThemeContext})=>{
     const german = useContext(LanguageContext)
     const theme = useContext(ThemeContext)
     const Text = german.german;
