@@ -38,7 +38,8 @@ const {SkillCard} = Languages[Text]
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">HTML5</h4><img className="logo" src={html5}></img>
-           </div> </div>
+           </div> 
+           </div>
         </div>
         <h3 className="comma">,</h3>
         <div className={theme.theme === "light"?"skillCard":"skillCardDark"}>
@@ -55,7 +56,8 @@ const {SkillCard} = Languages[Text]
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">CSS</h4><img className="logo" src={css}></img>
-           </div> </div>
+           </div> 
+           </div>
            
         </div>
         <h3 className="comma">,</h3>
@@ -73,7 +75,9 @@ const {SkillCard} = Languages[Text]
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">SASS</h4><img className="logo" src={sass}></img>
-           </div> </div></div>
+           </div> 
+           </div>
+           </div>
            <h3 className="comma">,</h3>
         <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentageJS">
                 <div className="dotJS"></div>
@@ -88,7 +92,9 @@ const {SkillCard} = Languages[Text]
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">JavaScript</h4><img className="logo" src={javascript}></img>
-           </div> </div></div>
+           </div> 
+           </div>
+           </div>
            <h3 className="comma">,</h3>
         <div className={theme.theme === "light"?"skillCard":"skillCardDark"}>
             <div className="percentageR">
@@ -104,7 +110,9 @@ const {SkillCard} = Languages[Text]
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">React.js</h4><img className="logo" src={react}></img>
-           </div> </div></div>
+           </div> 
+           </div>
+           </div>
            <h3 className="comma">,</h3>
         <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentageRX">
                 <div className="dotRX"></div>
@@ -119,7 +127,9 @@ const {SkillCard} = Languages[Text]
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">Redux.js</h4><img className="logo" src={redux}></img>
-           </div> </div></div>
+           </div> 
+           </div>
+           </div>
            <h3 className="comma">,</h3>
         <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentageEX">
                 <div className="dotEX"></div>
@@ -134,7 +144,9 @@ const {SkillCard} = Languages[Text]
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">Express.js</h4><img className="logo" src={express}></img>
-           </div> </div></div>
+           </div> 
+           </div>
+           </div>
            <h3 className="comma">,</h3>
         <div className={theme.theme === "light"?"skillCard":"skillCardDark"}><div className="percentageN">
                 <div className="dotN"></div>
@@ -149,7 +161,9 @@ const {SkillCard} = Languages[Text]
                 </div>
                 <div className="skillLogoContainer">
                 <h4 className="skillName">Node.js</h4><img className="logo" src={node}></img>
-           </div> </div></div>
+           </div> 
+           </div>
+           </div>
            <h3 className="closedArray">{SkillCard.closedArray}</h3>
          </div>
          <a href="https://github.com/AndiS82" className={theme.theme === "light"?"checkOutMyProfile":"checkOutMyProfileDark"}>Check out my GitHub profile for more!{<img className="winkMemoji" src={wink}></img>}</a>

@@ -40,21 +40,21 @@ filter: saturate(60%);
 .aboutMeContainer h2{
     font-family:Robotobold;
     position: absolute;
-    top: 15%;
+    top: 2.5%;
     margin: 1% 5%;
 z-index: 2;
-font-size: 4rem;
+font-size: 2rem;
 color: #ece9e6; 
 }
 
 .aboutMeContainer p{
   text-align:center;
     font-family:RobotoLight;
-    top: 30%;
+    top: 8.5%;
     position: absolute;
     margin: 1% 5%;
 z-index: 2;
-font-size: 1.2rem;
+font-size: 0.6rem;
 color: #ece9e6;
 line-height: 2;
 }

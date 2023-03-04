@@ -46,16 +46,16 @@ return(
             <img className="helloMemoji" onLoad={changeMemoji} src={memoji} alt={"Wave Memoji"}></img>
         </div>
     <nav className="navbarMain">
-    <NavLink className="Link" to={"/"}><h4>Home</h4></NavLink>
-<NavLink className="Link" to={"/skills"}><h4>Skills</h4></NavLink> 
-<NavLink className="Link" to={"/projects"}><h4>{Navbar.projects}</h4></NavLink>
+    <NavLink className="Link" to={"/"}><h4 className="navbarH">Home</h4></NavLink>
+<NavLink className="Link" to={"/skills"}><h4 className="navbarH">Skills</h4></NavLink> 
+<NavLink className="Link" to={"/projects"}><h4 className="navbarH">{Navbar.projects}</h4></NavLink>
     </nav>
     <div className="navbarSocialMedia">
 <a href="https://www.linkedin.com/in/andreas-schneider-bb1b21262/"  className="navbarA">{<GrLinkedin className="LI"/>}</a>
 <a href="https://github.com/AndiS82" className="navbarA">{<GrGithub  className="Git"/>}</a>
     </div>
     <div  className="navButtonDiv">
-    <NavLink className="Link" to={"/contact"}><h3>{Navbar.contactMe}</h3></NavLink>
+    <NavLink className="Link" to={"/contact"}><h3 className="navbarH">{Navbar.contactMe}</h3></NavLink>
     <button className="navbarButton" onClick={toggleLanguage}>{german.german === "german"?<img className="flag" src={english}></img> : <img className="flag" src={deutsch}></img>}</button>
     </div>
     <div>

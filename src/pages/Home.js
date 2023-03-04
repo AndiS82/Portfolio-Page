@@ -24,7 +24,7 @@ return (
 <h2>{Home.h2}</h2>
 <h1>{Home.h1}</h1>
 <h1 id='fullStack'>{"<Full Stack Web Developer/>"}</h1>
-<p>{Home.p}</p>
+<p>{Home.p1}</p>
 <h3 className={theme.theme === "light"?"getInTouch":"getInTouchDark"}>{Home.h3} {<HiArrowRightCircle className='icon'/>}</h3>
 <div className='memojiContainer'>
 <img className='callMeMemoji' src={CallMe} alt='Call me gesture memoji'></img>
