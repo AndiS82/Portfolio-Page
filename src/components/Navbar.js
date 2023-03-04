@@ -42,7 +42,7 @@ console.log(memoji)
 return(
     <nav className={theme.theme === "light"?"navbarWrapper":"navbarWrapperDark"} >
         <button className="backButton" onClick={()=> navigate(-1)}>{<SlArrowLeftCircle className="backIcon"/>}</button>
-        <div className="memojiContainer">    
+        <div className="memojiContainerNav">    
             <img className="helloMemoji" onLoad={changeMemoji} src={memoji} alt={"Wave Memoji"}></img>
         </div>
     <nav className="navbarMain">
@@ -55,7 +55,7 @@ return(
 <a href="https://github.com/AndiS82" className="navbarA">{<GrGithub  className="Git"/>}</a>
     </div>
     <div  className="navButtonDiv">
-    <NavLink className="Link" to={"/contact"}><h3 className="navbarH">{Navbar.contactMe}</h3></NavLink>
+    <NavLink className="Link" to={"/contact"}><h4 className="navbarH">{Navbar.contactMe}</h4></NavLink>
     <button className="navbarButton" onClick={toggleLanguage}>{german.german === "german"?<img className="flag" src={english}></img> : <img className="flag" src={deutsch}></img>}</button>
     </div>
     <div>

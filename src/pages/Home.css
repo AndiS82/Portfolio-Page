@@ -101,7 +101,7 @@
   
   .getInTouch{
     font-family:RobotoMedium;
-    width: 40%;
+    width: 100%;
     font-size: 1.2rem;
     margin: 5% 0 0 15%;
     color: #141e30;
@@ -109,7 +109,7 @@
 
   .getInTouchDark{
     font-family:RobotoMedium;
-    width: 40%;
+    width: 100%;
     font-size: 1.2rem;
     margin: 5% 0 0 15%;
     color: #ece9e6;
@@ -122,14 +122,15 @@
   }
 
   .memojiContainer{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
-  .callMeMemoji{margin: -10% 0 15% 50%;
-    height: 20%;
-    width: 20%;
+  .callMeMemoji{
+    height: 30%;
+    width: 30%;
 }
   
   main{

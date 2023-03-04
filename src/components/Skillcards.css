@@ -11,7 +11,7 @@
 .headlineContainer h2{
     width: 100%;
     color:mediumorchid;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@
 .headlineContainerDark h2{
     width: 100%;
     color: mediumorchid;
-    font-size: 3rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;

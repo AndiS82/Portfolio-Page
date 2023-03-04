@@ -15,7 +15,7 @@
 
 .navbarWrapper{
     height: 15vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -29,7 +29,7 @@
 }
 
 .backButton{
-    margin-left: 5%;
+    margin-left: 0.5%;
     background: transparent;
     border: transparent;
     cursor: pointer;
@@ -41,14 +41,15 @@
     color: #ece9e6;
 }
 
-.helloMemoji{margin: 0 15% 15% 30%;
-    height: 50%;
-    width: 50%;
+.helloMemoji{
+    margin: 10% 0;
+    height: 100%;
+    width: 100%;
 }
 
 .navbarWrapperDark{
     height: 15vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -62,10 +63,11 @@
     opacity: 97%;
 }
 
-.memojiContainer{
+.memojiContainerNav{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 15%;
 }
 
 .navbarMain{
@@ -76,8 +78,10 @@
 }
 
 .navbarH{ 
+    align-self: center;
+    padding: 0 2%;
     font-family: RobotoBold;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #ece9e6;
 }
 
@@ -85,7 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: center;
     color: #ece9e6;
 }
@@ -104,18 +108,19 @@
     display: flex;
     align-items: center; 
     justify-content: center;
-    width: 35%;
+    width: 20%;
 }
 
-.flag{margin: 0 5%;
-    height: 5vh;
-    width: 7vw;
+.flag{
+    margin: 0 2%;
+    height: 100%;
+    width: 100%;
 }
 
 .navbarButton{
-    margin-right: 5%;
+    margin:0 5%;
     font-family:RobotoMedium;
-    font-size: em;
+    font-size: 1em;
     color:#ece9e6;
 
     background: transparent;
@@ -134,15 +139,17 @@
     border-radius: 50%;
 }
 
-.reactIcon{color: #ece9e6;
+.reactIcon{
+    color: #ece9e6;
     font-size: 1rem;
 }
 
 .themeButton{
-        margin-right: 5%;
+    margin-right: 1%;
     background: transparent;
     border: transparent;
     cursor: pointer; 
+    width: 50%;
 }
 
 .reactIcon:hover{
