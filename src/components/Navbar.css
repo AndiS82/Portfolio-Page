@@ -174,3 +174,22 @@
     text-decoration: underline;
  }
  
+/*=======MEDIA QUERIES=======*/
+
+@media only screen and (max-width: 480px) and (min-width:280px) {
+    *{
+        font-size: 18px;
+    }
+
+    .helloMemoji{
+        margin: 10% 0;
+        height: 80%;
+        width: 80%;
+    }
+
+    .flag{
+        margin: 0 2%;
+        height: 90%;
+        width: 90%;
+    }
+}

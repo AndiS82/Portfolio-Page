@@ -24,11 +24,14 @@
   
   header{
     height: 100vh;
+    width: 100vw;
     margin-bottom: 10%;
+    overflow-y: hidden;
   }
   
   .headerContainer, .headerContainerDark{
-    padding: 5% 5% 2.5% 5%;
+    max-height: 100vh;
+    padding: 2% 5% 2.5% 5%;
   }
   
   .headerContainer h2{
@@ -135,4 +138,36 @@
   
   main{
     height: 100vh;
+  }/*=======MEDIA QUERIES HANDY=======*/
+
+@media only screen and (max-width: 480px) and (min-width:280px) {
+  *{
+      font-size: 18px;
+  }  header{
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 2%;
+    overflow-y: hidden;
   }
+
+  .headerContainer h2{
+    font-family:RobotoMedium;
+    margin:25% 10% 5% 10%;
+    font-size: 1.5rem;
+  color: #141e30;
+  }
+
+  .headerContainerDark h2{
+    font-family:RobotoMedium;
+    margin:25% 10% 5% 10%;
+    font-size: 1.5rem;
+  color: #ece9ec;
+  }
+
+  .callMeMemoji{
+    position: relative;
+bottom: 10vh;
+    height: 40%;
+    width: 40%;
+}
+}
